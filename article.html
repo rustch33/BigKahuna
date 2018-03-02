@@ -1,35 +1,57 @@
 ---
 layout: default
+category: ENTREPRENEURS
+subject: Tina May
+title: Kick Ass Entrepreneur
+intro-content: INTRO CONTENT
+history-content: HISTORY CONTENT
+history-image: /images/DanJames.jpg
+history-blockquote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+tp-content: TURNING POINT CONTENT
+life-now-content: LIFE NOW CONTENT
+life-now-image: /images/girls.jpg
+wrap-up-content: LAST PARAGRAPH OF ARTICLE
+call-to-action: CALL TO ACTION
+author-image: /images/back-view.jpg
+about-author: ABOUT AUTHOR CONTENT
+
+
 ---
 <!--ARTICLE TITLE AND BY LINE-->
 <section class="grid">
-  <div class="col-3">CATEGORY</div>
+  <div class="col-3">{{page.category}}</div>
   <div class="col-9">
-    <h2>TITLE AND BY LINE</h2>
+    <h2>{{page.subject}} - {{page.title}}</h2>
   </div>
 </section>
 <!--BODY OF ARTICLE-->
 <section>
-  INTRO CONTENT
+  {{page.intro-content}}
 </section>
 <section class="grid">
-  <div class="col-8">HISTORY CONTENT</div>
-  <div class="col-4">IMG</div>
+  <div class="col-8">{{page.history-content}}</div>
   <div class="col-4">
-    <blockquote>BLOCKQUOTE</blockquote>
+    <div class="bg-img" style="background-image: url({{page.history-image}})"> </div>
   </div>
-  <div class="col-8">TURNING POINT CONTENT</div>
-  <div class="col-12">LIFE NOW CONTENT</div>
-  <div class="col-12" grid-spaceAround>IMG</div>
-  <div class="col-6">TAKE AWAY/WRAP-UP</div>
-  <div class="col-6">CALL TO ACTION</div>
+  <div class="col-4">
+    <blockquote>{{page.history-blockquote}}</blockquote>
+  </div>
+  <div class="col-8">{{page.tp-content}}</div>
+  <div class="col-12">{{page.life-now-content}}</div>
+  <div class="col-12">
+    <div class="bg-img" style="background-image: url({{page.life-now-image}})"</div>
+  </div>
+  <div class="col-6">{{page.wrap-up-content}}</div>
+  <div class="col-6">{{page.call-to-action}}</div>
 </section>
 <!--AUTHOR INFO AND SHARE ON SOCIAL BANNER-->
 <section class="grid">
-  <div class="col-2">AUTHOR IMAGE</div>
-  <div class="col-2">ABOUT AUTHOR CONTENT</div>
+  <div class="col-2">
+    <div class="bg-img" style="background-image: url({{page.author-image}})"</div>
+  </div>
+  <div class="col-2">{{page.about-author}}</div>
   <div class="col-10">
-    <h3>LIKE AND SHARE THIS CONTENT</h3>
+    <h3>LOVE AND SHARE THIS CONTENT</h3>
     <a class="button">LOVE ICON</a>
     <a class="button">EMAIL ICON</a>
     <a class="button">FACEBOOK ICON</a>

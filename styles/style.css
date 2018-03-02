@@ -3,4 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   border: 1px solid lightgrey;
+  background-color: 
+}
+
+.bg-img {
+  min-height: 400px;
 }
