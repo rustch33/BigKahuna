@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="styles/gridlex.css" type="text/css">
+      <link rel="stylesheet" href="styles/style.css" type="text/css">
+    </head>
+<!--Header same across all pages (possibly smaller)-->
+    <header>
+      <section class="grid-spaceBetween">
+        <div class="col-4">
+          <h1>LOGO</h1>
+        </div>
+        <div class="col-4 grid">
+          <div class="col-6">
+            <a class="button">JOIN OUR COMMUNITY</a>
+          </div>
+          <div class="col-6">
+            <a class="button">SIGN UP FOR NEWSLETTER</a>
+          </div>
+          <div class="col-10"
+            <a class="button">HOME</a>
+            <a class="button">ABOUT</a>
+            <a class="button">STORE</a>
+            <a class="button">CONTACT</a>
+          </div>
+          <div class="col-2">
+            <a class="button">SEARCH ICON></a>
+          </div>
+        </div>
+      </section>
+      {% if page.name == 'index.html' %}
+      <section>
+        <!--PUT IN MAIN IMAGE-->
+        <img>MAIN IMAGE</img>
+      </section>
+      {% endif %}
+      <section>
+        <a class="button">HEALTH & FITNESS</a>
+        <a class="button">TRAVEL</a>
+        <a class="button">LIVING ABROAD</a>
+        <a class="button">CREATE CHANGE</a>
+        <a class="button">OUTSIDE THE BOX</a>
+      </section>
+    </header>
+
+    <!--Content goes here-->
+    {{content}}
+
+    <!--Footer same across all pages-->
+    <footer>
+      <section class="grid">
+        <div class="col-4">
+          <h1>LOGO</h1>
+        </div>
+        <div class="col-4">
+          <a class="button">INSTAGRAM ICON</a>
+          <a class="button">FACEBOOK ICON</a>
+          <a class="button">TWITTER ICON</a>
+          <a class="button">SNAPCHAT ICON</a>
+        </div>
+        <div class="col-4">
+          <a class="button">HOME</a>
+          <a class="button">ABOUT</a>
+          <a class="button">CONTACT</a>
+          <a class="button">LEGAL</a>
+        </div>
+      </section>
+    </footer>
+
+
+  </html>
