@@ -1,11 +1,90 @@
+/* Website Fonts: Baskerville
+   Website Colours: List colour hex codes here for reference */
+
+/* CSS RESET*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: 1px solid lightgrey;
-  background-color: 
+}
+/* GENERAL HELPER CLASSES*/
+
+.tall {
+  min-height: 100vh;
 }
 
+.med-height {
+  min-height: 50vh;
+}
+
+.short {
+  min-height: 30vh;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.no-padding {
+  padding: 0;
+}
+/*CAN DO BACKGROUND CLASSES LIKE THESE
+.light-bg {
+background-color:
+.dark-bg {
+background-color:
+.lighfeatured-bg {
+background-color:
+}
+*/
+
+/* UNIVERSAL STYLES*/
+
+body {
+    background-color: #e6e5e5;
+    color: #34495e;
+    font-family: 'Baskerville', Serif;
+  }
+
+  /*LAYOUT*/
+
+  /* TYPEOGRAPHY*/
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/* GENERAL STYLES*/
+
+/* HEADER & FOOTER*/
+
+header, footer {
+  text-align: center;
+}
+.logo {
+  font-size: 2rem;
+}
+h1 {
+  text-align: left;
+}
+.button.box {
+ display: block;
+ border: 1.5px solid white;
+}
+a.button {
+  font-size: 1rem;
+}
 .bg-img {
   min-height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.button {
+  padding: 1rem;
+  display: inline-block;
 }
