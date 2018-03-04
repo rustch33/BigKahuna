@@ -5,3 +5,7 @@
 #   - living-abroad
 #   - create-change
 #   - outside-the-box
+
+
+# Set pretty permalink
+permalink: /:categories/:title/

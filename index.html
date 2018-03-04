@@ -24,13 +24,12 @@ featured: 3
   {% for category in site.categories %}
     {% assign cat_name = category[0] %}
     {% for post in site.categories[cat_name] limit:1 %}
-    <a href="{{post.url}}" class="col-4 article-box">
-          <div class="bg-img article-photo" style="background-image:url({{post.post-image}})">
-            </div>
-          <div>
-          <h3>{{post.title}}</h3>
-          <p>{{post.sample-content}}</p>
-          </div>
+    <a href="{{ post.url }}" class="col-4 article-box">
+      <div class="bg-img article-photo" style="background-image:url({{post.post-image}})"></div>
+      <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+      </div>
     </a>
     {% endfor %}
   {% endfor %}

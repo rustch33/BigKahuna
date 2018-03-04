@@ -1,6 +1,7 @@
 /* Website Fonts: Baskerville
    Website Colours: rgb(246, 241, 237)
-                    rgb(241, 230, 222) */
+                    rgb(241, 230, 222)
+                    rgba(247, 240, 243, 0.94)*/
 
 /* CSS RESET*/
 *{
@@ -45,7 +46,7 @@ background-color:
 /* UNIVERSAL STYLES*/
 
 body {
-    background-color: rgb(246, 241, 237);
+    background-color: rgba(247, 240, 243, 0.94);
     color: #34495e;
     font-family: 'Cormorant Garamond', serif;
   }
@@ -65,33 +66,40 @@ body {
   background-color: #fff;
 }
 .header-logo {
-  font-size: 2.5rem;
-  padding: .5%;
-  font-style: italic;
+  min-height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 .header-photo {
   min-height: 350px;
   background-size: cover;
   background-position: center;
-  border: 5px solid rgb(246, 241, 237);
+  border: 2px solid rgba(247, 240, 243, 0.94);
 }
 
 .footer-logo {
-  font-size: 2rem;
-  font-style: italic;
+  min-height: 75px;
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 .button.box {
  display: inline-block;
  font-size: .8rem;
  font-weight: bold;
- background-color: rgb(246, 241, 237);
+ background-color: rgba(247, 240, 243, 0.94);
 }
 .button {
   padding: .5rem;
   display: inline-block;
 }
 .category-bar {
-  font-weight: bold;
+font-weight: bold ;
 }
 .footer-nav a {
   display: block;
