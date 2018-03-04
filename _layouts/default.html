@@ -2,13 +2,14 @@
   <html>
     <head>
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600,700" rel="stylesheet">
       <link rel="stylesheet" href="/styles/gridlex.css" type="text/css">
       <link rel="stylesheet" href="/styles/style.css" type="text/css">
     </head>
     <body>
 <!--Header same across all pages (possibly smaller)-->
     <header>
-      <section class="grid-spaceBetween">
+      <section class="grid-spaceBetween top-header">
         <div class="col-4 header-logo">
           <h1>LOGO</h1>
         </div>
@@ -35,11 +36,11 @@
       {% if page.name == 'index.html' %}
       <section>
         <!--PUT IN MAIN IMAGE-->
-        <div class="bg-img" style="background-image:url('/images/main-banner.jpg');">
+        <div class="bg-img" style="background-image:url('/images/main-banner-2.jpg');">
         </div>
       </section>
       {% endif %}
-      <section>
+      <section class="category-bar">
         <a class="button">ENTREPRENEURS</a>
         <a class="button">HEALTH & FITNESS</a>
         <a class="button">TRAVEL</a>
@@ -55,7 +56,7 @@
 
     <!--Footer same across all pages-->
     <footer>
-      <section class="grid">
+      <section class="grid bottom-footer">
         <div class="col-2-middle">
           <h1 class="text-center footer-logo">LOGO</h1>
         </div>
@@ -65,7 +66,7 @@
           <a class="button social-footer"><i class="fab fa-twitter-square"></i></a>
           <a class="button social-footer"><i class="fab fa-snapchat-square"></i></a>
         </div>
-        <div class="col-4 footer-nav text-center no-padding">
+        <div class="col-4 footer-nav text-left">
           <a href="/index.html" class="button">HOME</a>
           <a href="/about.html" class="button">ABOUT</a>
           <a href="/store.html" class="button">STORE</a>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article-post
 category: outside-the-box
 post-image: https://source.unsplash.com/random
 subject: Living Unconventionally
@@ -17,48 +17,3 @@ call-to-action: This is a call to action or how to contact the person if relevan
 author-image: /images/back-view.jpg
 about-author: ABOUT AUTHOR CONTENT
 ---
-<!--ARTICLE TITLE AND BY LINE-->
-<section class="grid">
-  <div class="col-3">{{page.category}}</div>
-  <div class="col-9">
-    <h2>{{page.title}}</h2>
-  </div>
-</section>
-<!--BODY OF ARTICLE-->
-<section>
-  {{page.intro-content}}
-</section>
-<section class="grid">
-  <div class="col-8">{{page.history-content}}</div>
-  <div class="col-4">
-    <div class="bg-img" style="background-image: url({{page.history-image}})"> </div>
-  </div>
-  <div class="col-4">
-    <blockquote>{{page.history-blockquote}}</blockquote>
-  </div>
-  <div class="col-8">{{page.tp-content}}</div>
-  <div class="col-12">{{page.life-now-content}}</div>
-  <div class="col-12">
-    <div class="bg-img" style="background-image: url({{page.life-now-image}})"></div>
-  </div>
-  <div class="col-6">{{page.wrap-up-content}}</div>
-  <div class="col-6">{{page.call-to-action}}</div>
-</section>
-<!--AUTHOR INFO AND SHARE ON SOCIAL BANNER-->
-<section class="grid">
-  <div class="col-2">
-    <div class="bg-img" style="background-image: url({{page.author-image}})"></div>
-  </div>
-  <div class="col-2">{{page.about-author}}</div>
-  <div class="col-10">
-    <h3>LOVE AND SHARE THIS CONTENT</h3>
-    <a class="button"><i class="far fa-heart"></i></a>
-    <a class="button"><i class="far fa-envelope"></i> </a>
-    <a class="button"><i class="fab fa-facebook-square"></i></a>
-    <a class="button"><i class="fab fa-twitter-square"></i></a>
-    <a class="button"><i class="fab fa-pinterest"></i></a>
-    <a class="button"><i class="fab fa-flipboard"></i></a>
-    <a class="button"><i class="fab fa-facebook-messenger"></i></a>
-    <a class="button"><i class="fab fa-whatsapp-square"></i></a>
-  </div>  
-</section>

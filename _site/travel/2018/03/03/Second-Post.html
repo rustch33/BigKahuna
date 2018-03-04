@@ -2,13 +2,14 @@
   <html>
     <head>
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600,700" rel="stylesheet">
       <link rel="stylesheet" href="/styles/gridlex.css" type="text/css">
       <link rel="stylesheet" href="/styles/style.css" type="text/css">
     </head>
     <body>
 <!--Header same across all pages (possibly smaller)-->
     <header>
-      <section class="grid-spaceBetween">
+      <section class="grid-spaceBetween top-header">
         <div class="col-4 header-logo">
           <h1>LOGO</h1>
         </div>
@@ -33,7 +34,7 @@
         </div>
       </section>
       
-      <section>
+      <section class="category-bar">
         <a class="button">ENTREPRENEURS</a>
         <a class="button">HEALTH & FITNESS</a>
         <a class="button">TRAVEL</a>
@@ -45,21 +46,24 @@
 
 
     <!--ARTICLE TITLE AND BY LINE-->
-<section class="grid">
-  <div class="col-3">travel</div>
-  <div class="col-9">
-    <h2>Go to BALI</h2>
+<section class="grid article-title">
+  <div class="col-2 category text-center">
+    <p>CATEGORY</p>
+    <h3>travel</h3>
+  </div>
+  <div class="col-10 text-center">
+    <h2>Go To BALI</h2>
+    <h4></h4>
   </div>
 </section>
 <!--BODY OF ARTICLE-->
-<section>
+<section class="grid article-body">
+  <div class="col-12">
   This section is the introduction to the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
-</section>
-<section class="grid">
-  <div class="col-8">This section is the history of the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.</div>
-  <div class="col-4">
-    <div class="bg-img" style="background-image: url(/images/DanJames.jpg)"> </div>
   </div>
+  <div class="col-8">This section is the history of the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.</div>
+  <div class="col-4 bg-img" style="background-image: url(/images/DanJames.jpg)"> </div>
+
   <div class="col-4">
     <blockquote>THIS IS THE QUOTE FROM THE STORY.</blockquote>
   </div>
@@ -72,29 +76,29 @@
   <div class="col-6">This is a call to action or how to contact the person if relevant.</div>
 </section>
 <!--AUTHOR INFO AND SHARE ON SOCIAL BANNER-->
-<section class="grid">
+<section class="grid author-share-sec">
   <div class="col-2">
-    <div class="bg-img" style="background-image: url(/images/back-view.jpg)"></div>
+    <div class="bg-img author" style="background-image: url(/images/back-view.jpg)"></div>
   </div>
-  <div class="col-2">ABOUT AUTHOR CONTENT</div>
-  <div class="col-10">
-    <h3>LOVE AND SHARE THIS CONTENT</h3>
-    <a class="button"><i class="far fa-heart"></i></a>
-    <a class="button"><i class="far fa-envelope"></i> </a>
-    <a class="button"><i class="fab fa-facebook-square"></i></a>
-    <a class="button"><i class="fab fa-twitter-square"></i></a>
-    <a class="button"><i class="fab fa-pinterest"></i></a>
-    <a class="button"><i class="fab fa-flipboard"></i></a>
-    <a class="button"><i class="fab fa-facebook-messenger"></i></a>
-    <a class="button"><i class="fab fa-whatsapp-square"></i></a>
-  </div>  
+    <div class="col-2 about-author">ABOUT AUTHOR CONTENT</div>
+      <div class="col-8 share-content">
+        <h3>LOVE AND SHARE THIS CONTENT</h3>
+        <a class="button text-center"><i class="far fa-heart"></i></a>
+        <a class="button text-center"><i class="far fa-envelope"></i> </a>
+        <a class="button text-center"><i class="fab fa-facebook-square"></i></a>
+        <a class="button text-center"><i class="fab fa-twitter-square"></i></a>
+        <a class="button text-center"><i class="fab fa-pinterest"></i></a>
+        <a class="button text-center"><i class="fab fa-flipboard"></i></a>
+        <a class="button text-center"><i class="fab fa-facebook-messenger"></i></a>
+        <a class="button text-center"><i class="fab fa-whatsapp-square"></i></a>
+      </div>
 </section>
 
 
 
     <!--Footer same across all pages-->
     <footer>
-      <section class="grid">
+      <section class="grid bottom-footer">
         <div class="col-2-middle">
           <h1 class="text-center footer-logo">LOGO</h1>
         </div>
@@ -104,7 +108,7 @@
           <a class="button social-footer"><i class="fab fa-twitter-square"></i></a>
           <a class="button social-footer"><i class="fab fa-snapchat-square"></i></a>
         </div>
-        <div class="col-4 footer-nav text-center no-padding">
+        <div class="col-4 footer-nav text-left">
           <a href="/index.html" class="button">HOME</a>
           <a href="/about.html" class="button">ABOUT</a>
           <a href="/store.html" class="button">STORE</a>

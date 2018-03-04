@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: article-post
 category: travel
 post-image: https://source.unsplash.com/random
-title: Go to BALI
+title: Go To BALI
 sample-content: This is a blurb that will make the person interested enough to read the story. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 intro-content: This section is the introduction to the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
 history-content: This section is the history of the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
@@ -16,48 +16,3 @@ call-to-action: This is a call to action or how to contact the person if relevan
 author-image: /images/back-view.jpg
 about-author: ABOUT AUTHOR CONTENT
 ---
-<!--ARTICLE TITLE AND BY LINE-->
-<section class="grid">
-  <div class="col-3">{{page.category}}</div>
-  <div class="col-9">
-    <h2>{{page.title}}</h2>
-  </div>
-</section>
-<!--BODY OF ARTICLE-->
-<section>
-  {{page.intro-content}}
-</section>
-<section class="grid">
-  <div class="col-8">{{page.history-content}}</div>
-  <div class="col-4">
-    <div class="bg-img" style="background-image: url({{page.history-image}})"> </div>
-  </div>
-  <div class="col-4">
-    <blockquote>{{page.history-blockquote}}</blockquote>
-  </div>
-  <div class="col-8">{{page.tp-content}}</div>
-  <div class="col-12">{{page.life-now-content}}</div>
-  <div class="col-12">
-    <div class="bg-img" style="background-image: url({{page.life-now-image}})"></div>
-  </div>
-  <div class="col-6">{{page.wrap-up-content}}</div>
-  <div class="col-6">{{page.call-to-action}}</div>
-</section>
-<!--AUTHOR INFO AND SHARE ON SOCIAL BANNER-->
-<section class="grid">
-  <div class="col-2">
-    <div class="bg-img" style="background-image: url({{page.author-image}})"></div>
-  </div>
-  <div class="col-2">{{page.about-author}}</div>
-  <div class="col-10">
-    <h3>LOVE AND SHARE THIS CONTENT</h3>
-    <a class="button"><i class="far fa-heart"></i></a>
-    <a class="button"><i class="far fa-envelope"></i> </a>
-    <a class="button"><i class="fab fa-facebook-square"></i></a>
-    <a class="button"><i class="fab fa-twitter-square"></i></a>
-    <a class="button"><i class="fab fa-pinterest"></i></a>
-    <a class="button"><i class="fab fa-flipboard"></i></a>
-    <a class="button"><i class="fab fa-facebook-messenger"></i></a>
-    <a class="button"><i class="fab fa-whatsapp-square"></i></a>
-  </div>  
-</section>

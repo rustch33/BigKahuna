@@ -44,9 +44,9 @@ background-color:
 /* UNIVERSAL STYLES*/
 
 body {
-    background-color: #e6e5e5;
+    background-color: rgb(246, 241, 237);
     color: #34495e;
-    font-family: 'Baskerville', Serif;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   /*LAYOUT*/
@@ -59,23 +59,27 @@ body {
 
 /* GENERAL STYLES*/
 
-/* HEADER & FOOTER*/
+/* HEADER & FOOTER rgb(241, 230, 222)*/
 
 header, footer {
   text-align: center;
 }
+.top-header, .bottom-footer {
+  background-color: #fff;
+}
 .header-logo {
   font-size: 3rem;
+  padding: 2%;
+  font-style: italic;
 }
 .footer-logo {
   font-size: 2rem;
-}
-h1 {
-  text-align: left;
+  font-style: italic;
 }
 .button.box {
  display: block;
- border: 1.5px solid white;
+ background-color: rgb(246, 241, 237);
+ margin: 1%;
 }
 a.button {
   font-size: 1rem;
@@ -84,14 +88,19 @@ a.button {
   min-height: 400px;
   background-size: cover;
   background-position: center;
+  border: 5px solid rgb(246, 241, 237);
 }
 .button {
   padding: 1rem;
   display: inline-block;
 }
+.category-bar {
+  font-weight: bold;
+}
 .footer-nav a {
   display: block;
   font-size: 1rem;
+  padding: 0;
 }
 a.social-footer {
   font-size: 2rem;
