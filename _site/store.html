@@ -2,14 +2,14 @@
   <html>
     <head>
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-      <link rel="stylesheet" href="styles/gridlex.css" type="text/css">
-      <link rel="stylesheet" href="styles/style.css" type="text/css">
+      <link rel="stylesheet" href="/styles/gridlex.css" type="text/css">
+      <link rel="stylesheet" href="/styles/style.css" type="text/css">
     </head>
     <body>
 <!--Header same across all pages (possibly smaller)-->
     <header>
       <section class="grid-spaceBetween">
-        <div class="col-4 logo">
+        <div class="col-4 header-logo">
           <h1>LOGO</h1>
         </div>
         <div class="col-6 grid-noGutter">
@@ -20,10 +20,10 @@
             <a class="button box">SIGN UP FOR NEWSLETTER</a>
           </div>
           <div class="col-10">
-            <a class="button">HOME</a>
-            <a class="button">ABOUT</a>
-            <a class="button">STORE</a>
-            <a class="button">CONTACT</a>
+            <a href="/index.html" class="button">HOME</a>
+            <a href="/about.html" class="button">ABOUT</a>
+            <a href="/store.html" class="button">STORE</a>
+            <a href="/contact.html" class="button">CONTACT</a>
           </div>
           <div class="col-2">
             <a class="button">
@@ -34,6 +34,7 @@
       </section>
       
       <section>
+        <a class="button">ENTREPRENEURS</a>
         <a class="button">HEALTH & FITNESS</a>
         <a class="button">TRAVEL</a>
         <a class="button">LIVING ABROAD</a>
@@ -88,24 +89,26 @@
     <!--Footer same across all pages-->
     <footer>
       <section class="grid">
-        <div class="col-2">
-          <h1>LOGO</h1>
+        <div class="col-2-middle">
+          <h1 class="text-center footer-logo">LOGO</h1>
         </div>
-        <div class="col-6">
-          <a class="button">INSTAGRAM</a>
-          <a class="button">FACEBOOK</a>
-          <a class="button">TWITTER</a>
-          <a class="button">SNAPCHAT</a>
+        <div class="col-6-bottom">
+          <a class="button social-footer"><i class="fab fa-instagram"></i></a>
+          <a class="button social-footer"><i class="fab fa-facebook-square"></i></a>
+          <a class="button social-footer"><i class="fab fa-twitter-square"></i></a>
+          <a class="button social-footer"><i class="fab fa-snapchat-square"></i></a>
         </div>
-        <div class="col-4 footer-nav">
-          <a class="button">HOME</a>
-          <a class="button">ABOUT</a>
-          <a class="button">CONTACT</a>
-          <a class="button">LEGAL</a>
+        <div class="col-4 footer-nav text-center no-padding">
+          <a href="/index.html" class="button">HOME</a>
+          <a href="/about.html" class="button">ABOUT</a>
+          <a href="/store.html" class="button">STORE</a>
+          <a href="/contact.html" class="button">CONTACT</a>
+          <a href="/legal.html" class="button">LEGAL</a>
         </div>
       </section>
     </footer>
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/main.js"></script>
   </body>
   </html>

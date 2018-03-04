@@ -2,71 +2,113 @@
 layout: default
 ---
 
-
 <!--ARTICLE IMAGES AND PHOTOS MAIN PAGE-->
 
 <section class="grid">
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+  {% for post in site.categories.ENTREPRENEURS limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+          </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+  {% endfor %}
+
+  {% for post in site.categories.TRAVEL limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+
+  {% endfor %}
+
+  {% for post in site.categories.HEALTH limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+
+  {% endfor %}
+
+  {% for post in site.categories.LIVING-ABROAD limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+
+  {% endfor %}
+
+  {% for post in site.categories.CREATE-CHANGE limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+
+  {% endfor %}
+
+  {% for post in site.categories.OUTSIDE-THE-BOX limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+
+  {% endfor %}
+
+  {% for post in site.categories.LIVING-ABROAD limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+
+  {% endfor %}
+
+  {% for post in site.categories.LIVING-ABROAD limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
-  <a href="#"class="col-4 grid">
-        <div class="col-12">IMG</div>
-        <div class="col-12">
-        <h3>TITLE OF ARTICLE</h3>
-        <p>SAMPLE OF CONTENT</p>
-    </div>
+
+  {% endfor %}
+
+  {% for post in site.categories.LIVING-ABROAD limit:1 %}
+  <a href="{{post.url}}" class="col-4">
+        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        </div>
+        <div>
+        <h3>{{post.title}}</h3>
+        <p>{{post.sample-content}}</p>
+        </div>
   </a>
+
+  {% endfor %}
 </section>

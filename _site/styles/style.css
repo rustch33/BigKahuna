@@ -13,11 +13,9 @@
 .tall {
   min-height: 100vh;
 }
-
 .med-height {
   min-height: 50vh;
 }
-
 .short {
   min-height: 30vh;
 }
@@ -66,7 +64,10 @@ body {
 header, footer {
   text-align: center;
 }
-.logo {
+.header-logo {
+  font-size: 3rem;
+}
+.footer-logo {
   font-size: 2rem;
 }
 h1 {
@@ -87,4 +88,54 @@ a.button {
 .button {
   padding: 1rem;
   display: inline-block;
+}
+.footer-nav a {
+  display: block;
+  font-size: 1rem;
+}
+a.social-footer {
+  font-size: 2rem;
+}
+
+/*ARTICLE-POST LAYOUT*/
+
+.article-body {
+  padding: 2%;
+}
+.category {
+  font-size: 1rem;
+  border: 2px solid white;
+  padding: 2%;
+}
+.article-title h2 {
+  font-size: 2rem;
+  padding: 3%;
+}
+.article-title h4 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.share-content {
+  text-align: center;
+  padding-top: 5%;
+}
+.share-content h3 {
+  padding-bottom: 2%;
+  font-style: italic;
+  font-size: 1rem;
+}
+.share-content a {
+  font-size: 1.5rem;
+}
+.bg-img.author {
+  min-height: 15vw;
+  background-size: cover;
+  background-position: center;
+  padding-top: 7vh;
+}
+
+/*CONTACT-PAGE*/
+
+.contact-page {
+  display: block;
 }
