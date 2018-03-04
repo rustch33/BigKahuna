@@ -1,5 +1,6 @@
 ---
 layout: article-post
+featured: true
 category: create-change
 post-image: https://source.unsplash.com/random
 subject: Volunteerism

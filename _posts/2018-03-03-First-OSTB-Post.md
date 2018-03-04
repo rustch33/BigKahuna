@@ -1,12 +1,12 @@
 ---
 layout: article-post
-category: outside-the-box
+category: Outside The Box
 post-image: https://source.unsplash.com/random
 subject: Living Unconventionally
 title: How To Travel and Work Remotely
 sample-content: This is a blurb that will make the person interested enough to read the story. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-intro-content: This section is the introduction to the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
-history-content: This section is the history of the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
+intro-content: This section is the introduction to the subject of the story. In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
+history-content: This section is the history of the subject of the story. In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
 history-image: /images/DanJames.jpg
 history-blockquote: "THIS IS THE QUOTE FROM THE STORY."
 tp-content: This is the part where the story has a turning point. In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.

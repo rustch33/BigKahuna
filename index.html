@@ -5,23 +5,27 @@ featured: 3
 
 <!--ARTICLE IMAGES AND PHOTOS MAIN PAGE-->
 
-<section class="grid">
-  {% assign post = site.posts[page.featured] %}
+<section class="grid featured-article">
+  {% for post in site.posts %}
+  {% if post.featured %}
   <a href="{{post.url}}" class="col-12">
-        <div class="bg-img" style="background-image:url({{post.post-image}})">
+        <div class="bg-img featured-photo" style="background-image:url({{post.post-image}})">
           </div>
         <div>
         <h3>{{post.title}}</h3>
         <p>{{post.sample-content}}</p>
         </div>
   </a>
+  {% endif %}
+  {% endfor %}
+</section>
 
-<section class="grid">
+<section class="grid regular-article">
   {% for category in site.categories %}
     {% assign cat_name = category[0] %}
     {% for post in site.categories[cat_name] limit:1 %}
-    <a href="{{post.url}}" class="col-4">
-          <div class="bg-img" style="background-image:url({{post.post-image}})">
+    <a href="{{post.url}}" class="col-4 article-box">
+          <div class="bg-img article-photo" style="background-image:url({{post.post-image}})">
             </div>
           <div>
           <h3>{{post.title}}</h3>
@@ -30,5 +34,4 @@ featured: 3
     </a>
     {% endfor %}
   {% endfor %}
-
 </section>

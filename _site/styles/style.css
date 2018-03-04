@@ -1,5 +1,6 @@
 /* Website Fonts: Baskerville
-   Website Colours: List colour hex codes here for reference */
+   Website Colours: rgb(246, 241, 237)
+                    rgb(241, 230, 222) */
 
 /* CSS RESET*/
 *{
@@ -8,7 +9,7 @@
   box-sizing: border-box;
   border: 1px solid lightgrey;
 }
-/* GENERAL HELPER CLASSES*/
+/* GENERAL HELPER CLASSES border: 1px solid lightgrey;*/
 
 .tall {
   min-height: 100vh;
@@ -48,7 +49,6 @@ body {
     color: #34495e;
     font-family: 'Cormorant Garamond', serif;
   }
-
   /*LAYOUT*/
 
   /* TYPEOGRAPHY*/
@@ -59,39 +59,35 @@ body {
 
 /* GENERAL STYLES*/
 
-/* HEADER & FOOTER rgb(241, 230, 222)*/
+/* HEADER & FOOTER */
 
-header, footer {
-  text-align: center;
-}
 .top-header, .bottom-footer {
   background-color: #fff;
 }
 .header-logo {
-  font-size: 3rem;
-  padding: 2%;
+  font-size: 2.5rem;
+  padding: .5%;
   font-style: italic;
 }
+.header-photo {
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid rgb(246, 241, 237);
+}
+
 .footer-logo {
   font-size: 2rem;
   font-style: italic;
 }
 .button.box {
- display: block;
+ display: inline-block;
+ font-size: .8rem;
+ font-weight: bold;
  background-color: rgb(246, 241, 237);
- margin: 1%;
-}
-a.button {
-  font-size: 1rem;
-}
-.bg-img {
-  min-height: 400px;
-  background-size: cover;
-  background-position: center;
-  border: 5px solid rgb(246, 241, 237);
 }
 .button {
-  padding: 1rem;
+  padding: .5rem;
   display: inline-block;
 }
 .category-bar {
@@ -108,24 +104,49 @@ a.social-footer {
 
 /*ARTICLE-POST LAYOUT*/
 
-.article-body {
+.featured-article {
+  margin: 15vh 10vw;
+}
+.article-box {
   padding: 2%;
 }
-.category {
-  font-size: 1rem;
-  border: 2px solid white;
-  padding: 2%;
+.featured-photo {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.article-body {
+  padding: 5%;
+}
+.article-body .bg-img {
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.article-photo {
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.article-title {
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .article-title h2 {
   font-size: 2rem;
-  padding: 3%;
 }
 .article-title h4 {
   font-size: 1.5rem;
   font-style: italic;
 }
+.category {
+  font-size: 1rem;
+  border: 3px inset white;
+}
 .author-share-sec {
-  padding: 5%;
+  padding: 2%;
 }
 .share-content {
   text-align: center;
@@ -135,7 +156,7 @@ a.social-footer {
   font-size: 1rem;
 }
 .share-content a {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .bg-img.author {
   min-height: 15vw;
@@ -144,7 +165,7 @@ a.social-footer {
   padding-top: 7vh;
 }
 .about-author {
-
+font-size: .75rem;
 }
 
 /*CONTACT-PAGE*/
