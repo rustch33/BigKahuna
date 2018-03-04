@@ -1,6 +1,6 @@
 ---
 layout: default
-category: HEALTH
+category: health-and-fitness
 post-image: https://source.unsplash.com/random
 subject: Travel Exercise
 title: Workout While On The Road

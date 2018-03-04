@@ -1,6 +1,6 @@
 ---
 layout: default
-category: ENTREPRENEURS
+category: entrepreneurs
 post-image: https://source.unsplash.com/random
 title: Kick Ass Entrepreneur
 name: Tina May
@@ -48,11 +48,11 @@ about-author: ABOUT THE AUTHOR
   <div class="col-6">{{page.call-to-action}}</div>
 </section>
 <!--AUTHOR INFO AND SHARE ON SOCIAL BANNER-->
-<section class="grid">
+<section class="grid author-share-sec">
   <div class="col-2">
     <div class="bg-img author" style="background-image: url({{page.author-image}})"></div>
   </div>
-    <div class="col-2">{{page.about-author}}</div>
+    <div class="col-2 about-author">{{page.about-author}}</div>
       <div class="col-8 share-content">
         <h3>LOVE AND SHARE THIS CONTENT</h3>
         <a class="button text-center"><i class="far fa-heart"></i></a>

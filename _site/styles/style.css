@@ -115,12 +115,13 @@ a.social-footer {
   font-size: 1.5rem;
   font-style: italic;
 }
+.author-share-sec {
+  padding: 5%;
+}
 .share-content {
   text-align: center;
-  padding-top: 5%;
 }
 .share-content h3 {
-  padding-bottom: 2%;
   font-style: italic;
   font-size: 1rem;
 }
@@ -132,6 +133,9 @@ a.social-footer {
   background-size: cover;
   background-position: center;
   padding-top: 7vh;
+}
+.about-author {
+
 }
 
 /*CONTACT-PAGE*/

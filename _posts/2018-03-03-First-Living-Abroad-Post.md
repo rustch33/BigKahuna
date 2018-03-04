@@ -1,6 +1,6 @@
 ---
 layout: default
-category: LIVING-ABROAD
+category: living-abroad
 post-image: https://source.unsplash.com/random
 subject: Visas
 title: How to get a work visa in Amsterdam

@@ -1,6 +1,6 @@
 ---
 layout: default
-category: OUTSIDE-THE-BOX
+category: outside-the-box
 post-image: https://source.unsplash.com/random
 subject: Living Unconventionally
 title: How To Travel and Work Remotely

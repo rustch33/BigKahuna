@@ -1,6 +1,6 @@
 ---
 layout: default
-category: TRAVEL
+category: travel
 post-image: https://source.unsplash.com/random
 title: Go to BALI
 sample-content: This is a blurb that will make the person interested enough to read the story. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

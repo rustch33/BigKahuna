@@ -1,6 +1,6 @@
 ---
 layout: default
-category: CREATE-CHANGE
+category: create-change
 post-image: https://source.unsplash.com/random
 subject: Volunteerism
 title: Volunteer to Create Change
