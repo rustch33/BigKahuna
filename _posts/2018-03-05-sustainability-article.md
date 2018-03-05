@@ -2,7 +2,7 @@
 layout: article-post
 featured:
 category: sustainability
-post-image: https://source.unsplash.com/random
+post-image: /images/eco-friendly.jpg
 title: Sustainable Eco-Friendly Cleaning Supplies
 sample-content: This is a blurb that will make the person interested enough to read the story.
 intro-content: This section is the introduction to the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.

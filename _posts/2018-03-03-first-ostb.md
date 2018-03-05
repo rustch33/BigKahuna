@@ -1,7 +1,7 @@
 ---
 layout: article-post
 category: outside-the-box
-post-image: https://source.unsplash.com/random
+post-image: /images/work-remotely.jpg
 subject: Living Unconventionally
 title: How To Travel and Work Remotely
 sample-content: This is a blurb that will make the person interested enough to read the story.

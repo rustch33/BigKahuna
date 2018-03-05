@@ -9,25 +9,21 @@
     <body class="travel">
 <!--Header same across all pages (possibly smaller)-->
     <header>
-      <section class="top-header">
-        <div class="grid-spaceBetween">
-          <div class="col-4_xs-12 header-logo" style="background-image:url('/images/logo.png');">
+      <div class="grid top-header">
+          <div class="col-4_xs-12 logo-container">
+            <a href="/index" class="header-logo">
+                <img src="/images/logo.png">
+            </a>
           </div>
-          <div class="col-8_xs-12 text-right">
-            <a href="/join-our-community" class="button box">JOIN OUR COMMUNITY</a>
-            <a href="/sign-up-for-newsletter" class="button box">SIGN UP FOR NEWSLETTER</a>
-          </div>
-        </div>
-        <div class="grid">
-          <div class="col-10 button-bar text-right a:hover">
-            <a href="/" class="button">HOME</a>
-<a href="/about" class="button">ABOUT</a>
-<a href="/store" class="button">STORE</a>
-<a href="/contact" class="button">CONTACT</a>
-
-          </div>
-            <div class="col-2">
-              <form action="/search" method="get">
+          <div class="grid col-8_xs-12 text-right">
+            <nav class="col-9">
+              <a href="/about" class="button box">ABOUT</a>
+              <a href="/store" class="button box">STORE</a>
+              <a href="/join-our-community" class="button box">JOIN OUR COMMUNITY</a>
+              <a href="/sign-up-for-newsletter" class="button box">SIGN UP FOR NEWSLETTER</a>
+            </nav>
+            <div class="col-3 text-right">
+              <form action="/search" method="get" class="col-3">
                 <label for="search-box">
                   <a class="button" type="submit" value="search">
                     <i class="fas fa-search"></i>
@@ -37,26 +33,27 @@
               </form>
             </div>
           </div>
-        </div>
-      </section>
-      
-      
-      <section class="category-bar text-center a:hover">
-        <a href="/entrepreneurs" class="button entrepreneurs">ENTREPRENEURS</a>
-        <a href="/health-and-fitness" class="button health-and-fitness">HEALTH & FITNESS</a>
-        <a href="/travel" class="button travel">TRAVEL</a>
-        <a href="/living-abroad" class="button living-abroad">LIVING ABROAD</a>
-        <a href="/create-change" class="button create-change">CREATE CHANGE</a>
-        <a href="/outside-the-box" class="button outside-the-box">OUTSIDE THE BOX</a>
-        <a href="/sustainability" class="button sustainability">SUSTAINABILITY</a>
-      </section>
-      
+          
+          <nav class="category-bar text-center a:hover">
+            <a href="/entrepreneurs" class="button entrepreneurs">ENTREPRENEURS</a>
+            <a href="/health-and-fitness" class="button health-and-fitness">HEALTH & FITNESS</a>
+            <a href="/travel" class="button travel">TRAVEL</a>
+            <a href="/living-abroad" class="button living-abroad">LIVING ABROAD</a>
+            <a href="/create-change" class="button create-change">CREATE CHANGE</a>
+            <a href="/outside-the-box" class="button outside-the-box">OUTSIDE THE BOX</a>
+            <a href="/sustainability" class="button sustainability">SUSTAINABILITY</a>
+          </nav>
+          
+      </div>
+
+      <!---  --->
+
     </header>
 
     <section class="grid regular-article">
   
     <a href="/travel/go-to-bali/" class="col-4_xs-12 article-box">
-  <div class="bg-img article-photo" style="background-image:url(https://source.unsplash.com/random)"></div>
+  <div class="bg-img article-photo" style="background-image:url(/images/bali.jpg)"></div>
   <div>
     <h3 class="article-title-main">Go To Bali</h3>
     <p class="article-blurb-main">This is a blurb that will make the person interested enough to read the story.</p>
@@ -80,12 +77,11 @@
           <a class="button social-footer"><i class="fab fa-twitter-square"></i></a>
           <a class="button social-footer"><i class="fab fa-snapchat-square"></i></a>
         </div>
-        <div class="col-4 footer-nav text-left">
-          <a href="/" class="button">HOME</a>
-<a href="/about" class="button">ABOUT</a>
-<a href="/store" class="button">STORE</a>
-<a href="/contact" class="button">CONTACT</a>
+        <div class="col-4 footer-nav text-center">
+          
 
+          <a href="/contact" class="button">CONTACT US</a>
+          <a href="/about" class="button">ABOUT</a>
           <a href="/legal" class="button">LEGAL</a>
         </div>
       </section>

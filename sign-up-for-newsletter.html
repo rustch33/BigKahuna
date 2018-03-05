@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<form>
-  <input type="text" name="full-name" id="full-name" placeholder="Your Name">
-  <input type="email" name="email" id="email" placeholder="Your Email">
-</form>  
+<div class="grid-spaceAround">
+  <div class="col-5 text-center sign-up">
+    <form class="newsletter" method="POST" action="https://formspree.io/christinarust.consultant@gmail.com">
+      <p>
+        <label for="fullname">Your Full Name</label> <br>
+        <input type="text" name="fullname" placeholder="Your Full Name">
+      </p>
+      <p class="email">
+        <label for="fullname">Your Email Address</label> <br>
+        <input type="email" name="email" placeholder="Your email">
+      </p>
+      <button class="send" type="submit">Send</button>
+    </form>
+  </div>
+</div>

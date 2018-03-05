@@ -9,6 +9,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+  max-width:100%;
+}
 /* GENERAL HELPER CLASSES border: 1px solid lightgrey;*/
 
 .tall {
@@ -33,7 +37,6 @@
   padding: 0;
 }
 
-
 /*CAN DO BACKGROUND CLASSES LIKE THESE
 .light-bg {
 background-color:
@@ -50,9 +53,14 @@ body {
     background-color: rgba(247, 240, 243, 0.94);
     color: #34495e;
     font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
   }
-
-  /*LAYOUT*/
+section {
+  padding: 5% 10%;
+}
 
   /* TYPEOGRAPHY*/
   a {
@@ -60,7 +68,6 @@ body {
     color: inherit;
   }
 
-/* GENERAL STYLES*/
 
 /* HEADER & FOOTER */
 
@@ -68,23 +75,30 @@ body {
   background-color: #fff;
 }
 .header-logo {
-  min-height: 125px;
-  background-size: cover;
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
+  max-width: 300px;
+  display:block;
+  padding-top: 2%;
+  padding-left: 2%;
 }
-.header-photo {
+.logo-container {
+  padding:0;
+}
+/*.header-photo {
   min-height: 350px;
   background-size: cover;
   background-position: center;
   border: 2px solid rgba(247, 240, 243, 0.94);
+}*/
+
+.category-bar {
+  font-size: 1rem;
+  display: inline-block;
+  margin-left: 8%;
 }
 .category-bar a:hover {
   font-style: italic;
   font-style: bold;
 }
-
 body.entrepreneurs .category-bar a.entrepreneurs {
   font-style: italic;
   font-weight: bold;
@@ -140,6 +154,9 @@ body.travel .category-bar a.travel {
 }
 #search-box {
   border: 2px inset lightgrey;
+  text-align: center;
+  padding-right: 7%;
+  padding-left: 0;
 }
 .footer-nav a {
   display: block;
@@ -153,35 +170,47 @@ a.social-footer {
 /* MAIN PAGE LAYOUT */
 
 .featured-article {
-  margin: 12vh 10vw;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .featured-article h3 {
   font-size: 2rem;
 }
 .featured-article p {
   font-size: 1.25rem;
+  font-style: italic;
 }
 .featured-photo {
-  min-height: 600vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
-  border: 5px inset white;
+  border: 7px double white;
 }
 .article-box {
-  padding: 3%;
+  width: 50vw;
+  padding: 2%;
 }
 .bg-img {
-  min-height: 300px;
+  min-height: 40vh;
   background-size: cover;
   background-position: center;
 }
 /*bg-img also applies to store images with same format*/
 
 .article-photo {
-  min-height: 400px;
+  height: 50vh;
   background-size: cover;
   background-position: center;
-  border: 5px inset white;
+  border: 3px solid white;
+}
+.article-title-main {
+  font-size: 1.2rem;
+}
+.article-blurb-main {
+  font-size: .8rem;
+  font-style: italic;
 }
 
 /*ARTICLE PAGE LAYOUT*/
@@ -228,18 +257,41 @@ font-size: .75rem;
   padding: 7%;
 }
 
+/*NEWSLETTER*/
+
+.newsletter input {
+  padding: .75rem;
+}
+.sign-up {
+  margin: 10%;
+  border: 2px solid white;
+  padding: 5%;
+}
+.email {
+  margin-top: 3%;
+}
+.send {
+  margin-top: 8%;
+  padding: .5rem;
+  width: 8vw;
+}
 
 /*ABOUT-PAGE*/
+
 .about-page {
-  padding: 20%;
-  font-size: 5rem;
+  padding: 15%;
+  font-size: 1.75rem;
+  border: 2px solid white;
+}
+.vision {
+  padding-top: 5%;
 }
 /*CONTACT-PAGE*/
 
 .contact-page {
   font-weight: bold;
   display: block;
-  border: 3px inset white;
+  border: 2px solid  white;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-right: 10%;
