@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid lightgrey;
 }
 /* GENERAL HELPER CLASSES border: 1px solid lightgrey;*/
 
@@ -69,11 +68,10 @@ body {
   background-color: #fff;
 }
 .header-logo {
-  min-height: 150px;
+  min-height: 125px;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-size: contain;
-  background-position: top;
   background-repeat: no-repeat;
 }
 .header-photo {
