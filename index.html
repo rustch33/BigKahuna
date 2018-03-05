@@ -7,30 +7,33 @@ featured: 3
 
 <section class="grid featured-article">
   {% for post in site.posts %}
-  {% if post.featured %}
-  <a href="{{post.url}}" class="col-12">
-        <div class="bg-img featured-photo" style="background-image:url({{post.post-image}})">
-          </div>
+    {% if post.featured != true %}
+      {% continue %}
+    {% else if post.featured == true %}
+      <a href="{{ post.url }}" class="col-12">
+        <div class="bg-img featured-photo" style="background-image:url({{post.post-image}})"></div>
         <div>
-        <h3>{{post.title}}</h3>
-        <p>{{post.sample-content}}</p>
+          <h3>{{post.title}}</h3>
+          <p>{{post.sample-content}}</p>
         </div>
-  </a>
-  {% endif %}
+      </a>
+    {% endif %}
   {% endfor %}
 </section>
 
 <section class="grid regular-article">
   {% for category in site.categories %}
+
+    <!-- Assign the category name (category[0]) to the variable cat_name -->
     {% assign cat_name = category[0] %}
+
+    <!-- If it's not "featured", get 1 article (limit) from each category (site.categories) -->
     {% for post in site.categories[cat_name] limit:1 %}
-    <a href="{{ post.url }}" class="col-4 article-box">
-      <div class="bg-img article-photo" style="background-image:url({{post.post-image}})"></div>
-      <div>
-        <h3>{{post.title}}</h3>
-        <p>{{post.sample-content}}</p>
-      </div>
-    </a>
+
+      <!-- If post has a variable of "featured", which is true, skip this post -->
+      {% if post.featured == true %}{% continue %}{% endif %}
+
+      {% include post.html %}
     {% endfor %}
   {% endfor %}
 </section>

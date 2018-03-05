@@ -1,4 +1,4 @@
-/* Website Fonts: Baskerville
+/* Website Fonts: Cormorant Garamond
    Website Colours: rgb(246, 241, 237)
                     rgb(241, 230, 222)
                     rgba(247, 240, 243, 0.94)*/
@@ -80,6 +80,30 @@ body {
   border: 2px solid rgba(247, 240, 243, 0.94);
 }
 
+body.entrepreneurs .category-bar a.entrepreneurs {
+  font-style: italic;
+  font-weight: bold;
+}
+body.create-change .category-bar a.create-change {
+  font-style: italic;
+  font-weight: bold;
+}
+body.health-and-fitness .category-bar a.health-and-fitness {
+  font-style: italic;
+  font-weight: bold;
+}
+body.living-abroad .category-bar a.living-abroad {
+  font-style: italic;
+  font-weight: bold;
+}
+body.outside-the-box .category-bar a.outside-the-box {
+  font-style: italic;
+  font-weight: bold;
+}
+body.travel .category-bar a.travel {
+  font-style: italic;
+  font-weight: bold;
+}
 .footer-logo {
   min-height: 75px;
   background-size: cover;
@@ -98,9 +122,7 @@ body {
   padding: .5rem;
   display: inline-block;
 }
-.category-bar {
-font-weight: bold ;
-}
+
 .footer-nav a {
   display: block;
   font-size: 1rem;
@@ -114,6 +136,12 @@ a.social-footer {
 
 .featured-article {
   margin: 15vh 10vw;
+}
+.featured-article h3 {
+  font-size: 2rem;
+}
+.featured-article p {
+  font-size: 1.25rem;
 }
 .article-box {
   padding: 2%;
@@ -179,5 +207,10 @@ font-size: .75rem;
 /*CONTACT-PAGE*/
 
 .contact-page {
+  font-weight: bold;
   display: block;
+  border: 3px inset white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
 }
