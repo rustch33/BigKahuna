@@ -100,6 +100,10 @@ body.outside-the-box .category-bar a.outside-the-box {
   font-style: italic;
   font-weight: bold;
 }
+body.sustainability .category-bar a.sustainability {
+  font-style: italic;
+  font-weight: bold;
+}
 body.travel .category-bar a.travel {
   font-style: italic;
   font-weight: bold;
