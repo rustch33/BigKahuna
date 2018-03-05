@@ -2,42 +2,38 @@
 layout: default
 ---
 <!--ARTICLE TITLE AND BY LINE-->
-<section class="grid article-title">
-  <div class="col-2 category text-center">
-    <p>CATEGORY</p>
-    <h3>{{page.category-name}}</h3>
-  </div>
-  <div class="col-10 text-center">
+<section class="article-title text-center">
     <h2>{{page.title}}</h2>
-    <h4>{{page.name}}</h4>
-  </div>
 </section>
 <!--BODY OF ARTICLE-->
 <section class="grid article-body">
   <div class="col-12">
   {{page.intro-content}}
   </div>
-  <div class="col-8">{{page.history-content}}</div>
+  <div class="col-8_xs-12">{{page.history-content}}</div>
   <div class="col-4 bg-img" style="background-image: url({{page.history-image}})"> </div>
 
-  <div class="col-4">
+  <div class="col-4_xs-12">
     <blockquote>{{page.history-blockquote}}</blockquote>
   </div>
-  <div class="col-8">{{page.tp-content}}</div>
+  <div class="col-8_xs-12">{{page.tp-content}}</div>
   <div class="col-12">{{page.life-now-content}}</div>
   <div class="col-12">
     <div class="bg-img" style="background-image: url({{page.life-now-image}})"></div>
   </div>
-  <div class="col-6">{{page.wrap-up-content}}</div>
-  <div class="col-6">{{page.call-to-action}}</div>
+  <div class="col-6_xs-12">{{page.wrap-up-content}}</div>
+  <div class="col-6_xs-12">{{page.call-to-action}}</div>
 </section>
 <!--AUTHOR INFO AND SHARE ON SOCIAL BANNER-->
 <section class="grid author-share-sec">
   <div class="col-2">
     <div class="bg-img author" style="background-image: url({{page.author-image}})"></div>
   </div>
-    <div class="col-2 about-author">{{page.about-author}}</div>
-      <div class="col-8 share-content">
+    <div class="col-2 about-author">
+      <h3>{{page.author}}</h3>
+      <p>{{page.about-author}}</p>
+    </div>
+      <div class="col-8_xs-12 share-content">
         <h3>LOVE AND SHARE THIS CONTENT</h3>
         <a class="button text-center"><i class="far fa-heart"></i></a>
         <a class="button text-center"><i class="far fa-envelope"></i> </a>

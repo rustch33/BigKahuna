@@ -13,21 +13,31 @@
         <div class="grid-spaceBetween">
           <div class="col-4_xs-12 header-logo" style="background-image:url('/images/logo.png');">
           </div>
-          <div class="col-8 _xs-12 text-right">
+          <div class="col-8_xs-12 text-right">
             <a href="/join-our-community" class="button box">JOIN OUR COMMUNITY</a>
             <a href="/sign-up-for-newsletter" class="button box">SIGN UP FOR NEWSLETTER</a>
           </div>
         </div>
-          <div class="button-bar text-right">
+        <div class="grid">
+          <div class="col-10 button-bar text-right a:hover">
             <a href="/" class="button">HOME</a>
 <a href="/about" class="button">ABOUT</a>
 <a href="/store" class="button">STORE</a>
 <a href="/contact" class="button">CONTACT</a>
 
-            <a class="button">
-              <i class="fas fa-search"></i>
-            </a>
           </div>
+            <div class="col-2">
+              <form action="/search" method="get">
+                <label for="search-box">
+                  <a class="button" type="submit" value="search">
+                    <i class="fas fa-search"></i>
+                  </a>
+                </label>
+                <input type="text" id="search-box" name="query">
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
       
       <section>
@@ -36,7 +46,8 @@
         </div>
       </section>
       
-      <section class="category-bar text-center">
+
+      <section class="category-bar text-center a:hover">
         <a href="/entrepreneurs" class="button entrepreneurs">ENTREPRENEURS</a>
         <a href="/health-and-fitness" class="button health-and-fitness">HEALTH & FITNESS</a>
         <a href="/travel" class="button travel">TRAVEL</a>
@@ -58,7 +69,7 @@
       <a href="/travel/go-to-bali/" class="col-12">
         <div class="bg-img featured-photo" style="background-image:url(https://source.unsplash.com/random)"></div>
         <div>
-          <h3>Go To BALI</h3>
+          <h3>Go To Bali</h3>
           <p>This is a blurb that will make the person interested enough to read the story.</p>
         </div>
       </a>
@@ -88,11 +99,11 @@
       <!-- If post has a variable of "featured", which is true, skip this post -->
       
 
-      <a href="/entrepreneurs/first-kick-ass-entrepreneur/" class="col-4 article-box">
+      <a href="/entrepreneurs/first-kick-ass-entrepreneur/" class="col-4_xs-12 article-box">
   <div class="bg-img article-photo" style="background-image:url(/images/tina-may.jpg)"></div>
   <div>
-    <h3>Kick Ass Entrepreneur</h3>
-    <p>This is a blurb that will make the person interested enough to read the story.</p>
+    <h3 class="article-title-main">Kick Ass Entrepreneur - Tina May</h3>
+    <p class="article-blurb-main">This is a blurb that will make the person interested enough to read the story.</p>
   </div>
 </a>
 
@@ -108,11 +119,11 @@
       <!-- If post has a variable of "featured", which is true, skip this post -->
       
 
-      <a href="/create-change/first-create-change/" class="col-4 article-box">
+      <a href="/create-change/first-create-change/" class="col-4_xs-12 article-box">
   <div class="bg-img article-photo" style="background-image:url(/images/volunteerism.jpg)"></div>
   <div>
-    <h3>Volunteer to Create Change</h3>
-    <p>This is a blurb that will make the person interested enough to read the story.</p>
+    <h3 class="article-title-main">Volunteer to Create Change</h3>
+    <p class="article-blurb-main">This is a blurb that will make the person interested enough to read the story.</p>
   </div>
 </a>
 
@@ -128,11 +139,11 @@
       <!-- If post has a variable of "featured", which is true, skip this post -->
       
 
-      <a href="/living-abroad/first-living-abroad/" class="col-4 article-box">
+      <a href="/living-abroad/first-living-abroad/" class="col-4_xs-12 article-box">
   <div class="bg-img article-photo" style="background-image:url(/images/paperwork-helloquence-51716-unsplash.jpg)"></div>
   <div>
-    <h3>How to get a work visa in Amsterdam</h3>
-    <p>This is a blurb that will make the person interested enough to read the story.</p>
+    <h3 class="article-title-main">How to get a work visa in Amsterdam</h3>
+    <p class="article-blurb-main">This is a blurb that will make the person interested enough to read the story.</p>
   </div>
 </a>
 
@@ -148,11 +159,11 @@
       <!-- If post has a variable of "featured", which is true, skip this post -->
       
 
-      <a href="/outside-the-box/first-ostb/" class="col-4 article-box">
+      <a href="/outside-the-box/first-ostb/" class="col-4_xs-12 article-box">
   <div class="bg-img article-photo" style="background-image:url(https://source.unsplash.com/random)"></div>
   <div>
-    <h3>How To Travel and Work Remotely</h3>
-    <p>This is a blurb that will make the person interested enough to read the story.</p>
+    <h3 class="article-title-main">How To Travel and Work Remotely</h3>
+    <p class="article-blurb-main">This is a blurb that will make the person interested enough to read the story.</p>
   </div>
 </a>
 
@@ -168,11 +179,11 @@
       <!-- If post has a variable of "featured", which is true, skip this post -->
       
 
-      <a href="/health-and-fitness/health-&-fitness/" class="col-4 article-box">
+      <a href="/health-and-fitness/health-&-fitness/" class="col-4_xs-12 article-box">
   <div class="bg-img article-photo" style="background-image:url(https://source.unsplash.com/random)"></div>
   <div>
-    <h3>Workout While On The Road</h3>
-    <p>This is a blurb that will make the person interested enough to read the story.</p>
+    <h3 class="article-title-main">Workout While On The Road</h3>
+    <p class="article-blurb-main">This is a blurb that will make the person interested enough to read the story.</p>
   </div>
 </a>
 
@@ -198,11 +209,11 @@
       <!-- If post has a variable of "featured", which is true, skip this post -->
       
 
-      <a href="/sustainability/sustainability-article/" class="col-4 article-box">
+      <a href="/sustainability/sustainability-article/" class="col-4_xs-12 article-box">
   <div class="bg-img article-photo" style="background-image:url(https://source.unsplash.com/random)"></div>
   <div>
-    <h3>Sustainable Eco-Friendly Cleaning Supplies</h3>
-    <p>This is a blurb that will make the person interested enough to read the story.</p>
+    <h3 class="article-title-main">Sustainable Eco-Friendly Cleaning Supplies</h3>
+    <p class="article-blurb-main">This is a blurb that will make the person interested enough to read the story.</p>
   </div>
 </a>
 
@@ -236,6 +247,8 @@
     </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/lunr.js"></script>
   <script src="/js/main.js"></script>
+  <script src="/js/search.js"></script>
   </body>
   </html>

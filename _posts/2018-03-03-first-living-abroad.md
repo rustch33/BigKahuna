@@ -15,5 +15,6 @@ life-now-image: /images/girls.jpg
 wrap-up-content: This is the wrap up/ending to the article. In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
 call-to-action: This is a call to action or how to contact the person if relevant.
 author-image: /images/back-view.jpg
+author: AUTHOR NAME
 about-author: ABOUT AUTHOR CONTENT
 ---

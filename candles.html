@@ -1,0 +1,15 @@
+---
+layout: default
+category: candles
+---
+<section class="grid">
+  {% for item in site.products %}
+  {% if item.category == 'candles' %}
+  <div class="col-4 text-center">
+    <h2> {{item.name}}</h2>
+    <p> {{item.product-description}}</p>
+    <p> {{item.price}}</p>
+  </div>
+  {% endif %}
+  {% endfor %}
+</section>

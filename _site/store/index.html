@@ -13,24 +13,35 @@
         <div class="grid-spaceBetween">
           <div class="col-4_xs-12 header-logo" style="background-image:url('/images/logo.png');">
           </div>
-          <div class="col-8 _xs-12 text-right">
+          <div class="col-8_xs-12 text-right">
             <a href="/join-our-community" class="button box">JOIN OUR COMMUNITY</a>
             <a href="/sign-up-for-newsletter" class="button box">SIGN UP FOR NEWSLETTER</a>
           </div>
         </div>
-          <div class="button-bar text-right">
+        <div class="grid">
+          <div class="col-10 button-bar text-right a:hover">
             <a href="/" class="button">HOME</a>
 <a href="/about" class="button">ABOUT</a>
 <a href="/store" class="button">STORE</a>
 <a href="/contact" class="button">CONTACT</a>
 
-            <a class="button">
-              <i class="fas fa-search"></i>
-            </a>
           </div>
+            <div class="col-2">
+              <form action="/search" method="get">
+                <label for="search-box">
+                  <a class="button" type="submit" value="search">
+                    <i class="fas fa-search"></i>
+                  </a>
+                </label>
+                <input type="text" id="search-box" name="query">
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
       
-      <section class="category-bar text-center">
+
+      <section class="category-bar text-center a:hover">
         <a href="/entrepreneurs" class="button entrepreneurs">ENTREPRENEURS</a>
         <a href="/health-and-fitness" class="button health-and-fitness">HEALTH & FITNESS</a>
         <a href="/travel" class="button travel">TRAVEL</a>
@@ -42,45 +53,69 @@
     </header>
 
 
-    <section class="grid">
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>PRODUCT NAME></h3>
-      <p>WHY WE LOVE IT></p>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-</section>
+      <section class="grid">
+  
+    <a href="" class="col-4_xs-12 product-box">
+  <div class="bg-img product-image" style="background-image:url(https://source.unsplash.com/random)"></div>
+  <div class="text-center">
+    <h2> Tall Candle</h2>
+    <p> This is a description of the candle and why we love it.</p>
+    <p> $30</p>
+  </div>
+</a>
+
+  
+    <a href="" class="col-4_xs-12 product-box">
+  <div class="bg-img product-image" style="background-image:url(https://source.unsplash.com/random)"></div>
+  <div class="text-center">
+    <h2> Short Candle</h2>
+    <p> This is a description of the candle and why we love it.</p>
+    <p> $15</p>
+  </div>
+</a>
+
+  
+    <a href="" class="col-4_xs-12 product-box">
+  <div class="bg-img product-image" style="background-image:url(https://source.unsplash.com/random)"></div>
+  <div class="text-center">
+    <h2> Large Duffle</h2>
+    <p> This is a description of the handbag and why we love it.</p>
+    <p> $200</p>
+  </div>
+</a>
+
+  
+    <a href="" class="col-4_xs-12 product-box">
+  <div class="bg-img product-image" style="background-image:url(https://source.unsplash.com/random)"></div>
+  <div class="text-center">
+    <h2> Medium Duffle</h2>
+    <p> This is a description of the handbag and why we love it.</p>
+    <p> $150</p>
+  </div>
+</a>
+
+  
+    <a href="" class="col-4_xs-12 product-box">
+  <div class="bg-img product-image" style="background-image:url(https://source.unsplash.com/random)"></div>
+  <div class="text-center">
+    <h2> Small Wallet</h2>
+    <p> This is a description of the wallet and why we love it.</p>
+    <p> $30</p>
+  </div>
+</a>
+
+  
+    <a href="" class="col-4_xs-12 product-box">
+  <div class="bg-img product-image" style="background-image:url(https://source.unsplash.com/random)"></div>
+  <div class="text-center">
+    <h2> Large Wallet</h2>
+    <p> This is a description of the wallet and why we love it.</p>
+    <p> $40</p>
+  </div>
+</a>
+
+  
+  </section>
 
 
 
@@ -108,6 +143,8 @@
     </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/lunr.js"></script>
   <script src="/js/main.js"></script>
+  <script src="/js/search.js"></script>
   </body>
   </html>

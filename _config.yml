@@ -6,6 +6,13 @@ categories:
   - create-change
   - outside-the-box
   - sustainability
+  - handbags
+  - candles
+  - wallets
+
+collections:
+   products:
+     output: true
 
 
 # Set pretty permalink

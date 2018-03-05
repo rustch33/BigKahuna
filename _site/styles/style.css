@@ -33,6 +33,8 @@
 .no-padding {
   padding: 0;
 }
+
+
 /*CAN DO BACKGROUND CLASSES LIKE THESE
 .light-bg {
 background-color:
@@ -50,6 +52,7 @@ body {
     color: #34495e;
     font-family: 'Cormorant Garamond', serif;
   }
+
   /*LAYOUT*/
 
   /* TYPEOGRAPHY*/
@@ -78,6 +81,10 @@ body {
   background-size: cover;
   background-position: center;
   border: 2px solid rgba(247, 240, 243, 0.94);
+}
+.category-bar a:hover {
+  font-style: italic;
+  font-style: bold;
 }
 
 body.entrepreneurs .category-bar a.entrepreneurs {
@@ -126,7 +133,16 @@ body.travel .category-bar a.travel {
   padding: .5rem;
   display: inline-block;
 }
-
+.button-bar {
+  display: inline-block;
+}
+.button-bar a:hover {
+  font-style: italic;
+  font-style: bold;
+}
+#search-box {
+  border: 2px inset lightgrey;
+}
 .footer-nav a {
   display: block;
   font-size: 1rem;
@@ -136,10 +152,10 @@ a.social-footer {
   font-size: 2rem;
 }
 
-/*ARTICLE-POST LAYOUT*/
+/* MAIN PAGE LAYOUT */
 
 .featured-article {
-  margin: 15vh 10vw;
+  margin: 12vh 10vw;
 }
 .featured-article h3 {
   font-size: 2rem;
@@ -147,28 +163,32 @@ a.social-footer {
 .featured-article p {
   font-size: 1.25rem;
 }
-.article-box {
-  padding: 2%;
-}
 .featured-photo {
-  min-height: 500px;
+  min-height: 600vh;
   background-size: cover;
   background-position: center;
+  border: 5px inset white;
 }
-.article-body {
-  padding: 5%;
+.article-box {
+  padding: 3%;
 }
-.article-body .bg-img {
+.bg-img {
   min-height: 300px;
   background-size: cover;
   background-position: center;
 }
+/*bg-img also applies to store images with same format*/
+
 .article-photo {
   min-height: 400px;
   background-size: cover;
   background-position: center;
+  border: 5px inset white;
 }
-.article-title {
+
+/*ARTICLE PAGE LAYOUT*/
+
+.article-title-box {
   width: 100%;
   max-width: 1024px;
   margin-left: auto;
@@ -176,14 +196,10 @@ a.social-footer {
 }
 .article-title h2 {
   font-size: 2rem;
+  padding-top: 5%;
 }
-.article-title h4 {
-  font-size: 1.5rem;
-  font-style: italic;
-}
-.category {
-  font-size: 1rem;
-  border: 3px inset white;
+.article-body {
+  padding: 5%;
 }
 .author-share-sec {
   padding: 2%;
@@ -208,6 +224,18 @@ a.social-footer {
 font-size: .75rem;
 }
 
+/*STORE*/
+
+.product-box {
+  padding: 7%;
+}
+
+
+/*ABOUT-PAGE*/
+.about-page {
+  padding: 20%;
+  font-size: 5rem;
+}
 /*CONTACT-PAGE*/
 
 .contact-page {

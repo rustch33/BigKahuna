@@ -2,8 +2,7 @@
 layout: article-post
 category: entrepreneurs
 post-image: /images/tina-may.jpg
-title: Kick Ass Entrepreneur
-name: Tina May
+title: Kick Ass Entrepreneur - Tina May
 sample-content: This is a blurb that will make the person interested enough to read the story.
 intro-content: This section is the introduction to the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
 history-content: This section is the history of the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
@@ -15,5 +14,6 @@ life-now-image: /images/girls.jpg
 wrap-up-content: This is the wrap up/ending to the article. In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
 call-to-action: This is a call to action or how to contact the person if relevant.
 author-image: /images/back-view.jpg
+author: AUTHOR NAME
 about-author: ABOUT THE AUTHOR
 ---

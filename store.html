@@ -1,43 +1,9 @@
 ---
 layout: default
+title: store
 ---
-
-<section class="grid">
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>PRODUCT NAME></h3>
-      <p>WHY WE LOVE IT></p>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-  <a href="#"class="col-6 grid">
-    <div class="col-6">IMG</div>
-    <div class="col-6">CONTENT
-      <h3>TITLE OF ARTICLE></h3>
-    </div>
-  </a>
-</section>
+  <section class="grid">
+  {% for item in site.products %}
+    {% include product.html %}
+  {% endfor %}
+  </section>
