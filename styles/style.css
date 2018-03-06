@@ -40,6 +40,10 @@ img {
   padding-left: 0;
   padding-right: 0;
 }
+.a:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
 
 /*CAN DO BACKGROUND CLASSES LIKE THESE
 .light-bg {
@@ -221,6 +225,10 @@ a.social-footer {
   font-size: .8rem;
   font-style: italic;
 }
+
+/*this is not working  font-style: italic;
+  text-decoration: underline;
+} */
 
 /*ARTICLE PAGE LAYOUT*/
 
