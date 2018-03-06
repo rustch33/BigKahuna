@@ -3,7 +3,7 @@ layout: article-post
 category: living-abroad
 post-image: /images/paperwork-helloquence-51716-unsplash.jpg  
 subject: Visas
-title: How to get a work visa in Amsterdam
+title: Work Visas in Amsterdam
 sample-content: This is a blurb that will make the person interested enough to read the story.
 intro-content: This section is the introduction to the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.
 history-content: This section is the history of the subject of the story.In ornare quam viverra orci sagittis. In nibh mauris cursus mattis molestie a. Condimentum lacinia quis vel eros donec.

@@ -36,6 +36,10 @@ img {
 .no-padding {
   padding: 0;
 }
+.no-gutter {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 /*CAN DO BACKGROUND CLASSES LIKE THESE
 .light-bg {
@@ -140,6 +144,7 @@ body.travel .category-bar a.travel {
  font-size: .8rem;
  font-weight: bold;
  background-color: rgba(247, 240, 243, 0.94);
+ margin-top: 1%;
 }
 .button {
   padding: .5rem;
@@ -157,6 +162,10 @@ body.travel .category-bar a.travel {
   text-align: center;
   padding-right: 7%;
   padding-left: 0;
+  line-height: 1.5;
+}
+.s-icon {
+  font-size: .8rem;
 }
 .footer-nav a {
   display: block;
@@ -186,7 +195,7 @@ a.social-footer {
   height: 70vh;
   background-size: cover;
   background-position: center;
-  border: 7px double white;
+  border: 7px ridge white;
 }
 .article-box {
   width: 50vw;
@@ -289,10 +298,14 @@ font-size: .75rem;
 /*CONTACT-PAGE*/
 
 .contact-page {
+  height: 20vw;
+  width: 20vw;
+  padding-top: 2%;
   font-weight: bold;
   display: block;
   border: 2px solid  white;
   margin-top: 10%;
   margin-bottom: 10%;
+  margin-left: 28%;
   margin-right: 10%;
 }

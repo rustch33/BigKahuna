@@ -28,7 +28,6 @@ layout: default
 
     <!-- If it's not "featured", get 1 article (limit) from each category (site.categories) -->
     {% for post in site.categories[cat_name] limit:1 %}
-
       <!-- If post has a variable of "featured", which is true, skip this post -->
       {% if post.featured == true %}{% continue %}{% endif %}
 

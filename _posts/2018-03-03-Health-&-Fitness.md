@@ -1,7 +1,7 @@
 ---
 layout: article-post
 categories: health-and-fitness
-post-image: /images/climing-wall.jpg
+post-image: /images/climbing-wall.jpg
 subject: Travel Exercise
 title: Workout While On The Road
 sample-content: This is a blurb that will make the person interested enough to read the story.
